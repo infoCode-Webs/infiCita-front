@@ -1,0 +1,12 @@
+{
+    "name": "inficita-front",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "apps/*"
+    ],
+    "scripts": {
+        "dev:landing": "npm run dev --workspace=landing",
+        "dev:app": "npm run dev --workspace=app"
+    }
+}
